@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysql_db": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "blackpage",
+    "password": "bl@ckp@g3",
+    "name": "mysql_db",
+    "user": "blackpage",
+    "connector": "mysql"
   }
 }

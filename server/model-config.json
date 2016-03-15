@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Post": {
+    "dataSource": "mysql_db",
+    "public": true
   }
 }
