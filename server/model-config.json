@@ -34,6 +34,14 @@
   },
   "Post": {
     "dataSource": "mysql_db",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Author": {
+    "dataSource": "mysql_db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

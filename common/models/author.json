@@ -1,0 +1,40 @@
+{
+  "name": "Author",
+  "base": "PersistedModel",
+  "strict": true,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "index": true,
+      "comments": "unique username"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "posts": {
+      "type": "hasMany",
+      "model": "Post",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
